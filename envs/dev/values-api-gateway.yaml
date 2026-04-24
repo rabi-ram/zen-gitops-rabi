@@ -2,7 +2,7 @@ replicaCount: 1
 fullnameOverride: api-gateway
 image:
   repository: 873135413040.dkr.ecr.us-east-1.amazonaws.com/api-gateway
-  tag: sha-363c1f1
+  tag: sha-8307aaf
   pullPolicy: Always
 service:
   type: ClusterIP
@@ -51,7 +51,6 @@ configmap:
   AUTH_SERVICE_URL: "http://auth-service:8081"
   DRUG_CATALOG_URL: "http://drug-catalog-service:8082"
   NOTIFICATION_URL: "http://notification-service:3000"
-
   MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE: "health,info,metrics,prometheus"
 envFrom:
   - secretRef:
