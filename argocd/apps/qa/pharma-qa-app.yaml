@@ -12,8 +12,8 @@ spec:
   project: pharma
 
   source:
-    # Replace 'your-github-username' with your GitHub username after forking zen-gitops
-    repoURL: https://github.com/your-github-username/zen-gitops.git
+    # Replace 'ravdy' with your GitHub username after forking zen-gitops
+    repoURL: https://github.com/ravdy/zen-gitops.git
     targetRevision: HEAD
     path: envs/qa
 
