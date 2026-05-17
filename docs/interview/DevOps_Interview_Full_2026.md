@@ -1149,7 +1149,7 @@ Internet / corporate VPN
 - Per-service **ServiceAccounts** where apps need AWS API access (annotated with `eks.amazonaws.com/role-arn`).
 
 **5. Container images and registry**
-- CI builds images → pushes to **ECR** (`873135413040.dkr.ecr.us-east-1.amazonaws.com/<service>:<tag>`).
+- CI builds images → pushes to **ECR** (`054014031295.dkr.ecr.us-east-1.amazonaws.com/<service>:<tag>`).
 - EKS nodes pull via IAM/node role or `imagePullSecrets`; tags are immutable SHAs in lower envs, semver in prod.
 
 **6. Delivery (GitOps)**
