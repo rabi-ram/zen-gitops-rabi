@@ -13,7 +13,7 @@ spec:
 
   source:
     # Replace 'rabi-ram' with your GitHub username after forking zen-gitops
-    repoURL: https://github.com/rabi-ram/zen-gitops.git
+    repoURL: https://github.com/rabi-ram/zen-gitops-rabi.git
     targetRevision: HEAD
     path: envs/prod
 

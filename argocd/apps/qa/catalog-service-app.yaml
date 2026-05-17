@@ -13,7 +13,7 @@ spec:
   project: pharma
 
   source:
-    repoURL: https://github.com/rabi-ram/zen-gitops.git
+    repoURL: https://github.com/rabi-ram/zen-gitops-rabi.git
     targetRevision: HEAD
     path: helm-charts
     helm:
